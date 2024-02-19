@@ -1,7 +1,12 @@
 package com.epam.mjc.stage0;
 
 public class Animal {
-
+    public static void main(String[] args) {
+Dog dog = new Dog();
+Bird bird = new Bird();
+dog.getDescription();
+bird.getDescription();
+    }
     private String color;
     private  int numberOfPaws;
     private boolean  hasFur;
